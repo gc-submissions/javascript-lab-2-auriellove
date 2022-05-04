@@ -30,5 +30,10 @@ const logHealth = (player, health) => {
 }
 logHealth(`Auriel`, 100)
 
+const logDeath = (winner, loser) => {
+    console.log(`${winner} defeated ${loser}`);
+}
+logDeath(`Auriel`, `Brianna`)
+
 
     
