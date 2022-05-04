@@ -25,5 +25,10 @@ function attackPlayer(health) {
 }
 console.log(attackPlayer(10));
 
+const logHealth = (player, health) => {
+    console.log(`${player} health: ${health}`);
+}
+logHealth(`Auriel`, 100)
+
 
     
