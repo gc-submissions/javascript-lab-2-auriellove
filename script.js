@@ -35,5 +35,10 @@ const logDeath = (winner, loser) => {
 }
 logDeath(`Auriel`, `Brianna`)
 
+const isDead = (health) => {
+    return health <= 0 ? true:false;
+}
+console.log(isDead(5));
+
 
     
